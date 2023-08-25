@@ -28,6 +28,7 @@ export interface GlobalState {
 /* UserState */
 export interface UserState {
   token: string;
+  tenantId: string;
   userInfo: { name: string };
 }
 

@@ -18,7 +18,7 @@ const config = {
   // 设置超时时间
   timeout: ResultEnum.TIMEOUT as number,
   // 跨域时候允许携带凭证
-  withCredentials: true
+  withCredentials: false
 };
 
 class RequestHttp {
@@ -38,8 +38,11 @@ class RequestHttp {
         // 当前请求不需要显示 loading，在 api 服务中通过指定的第三个参数: { noLoading: true } 来控制
         config.noLoading || showFullScreenLoading();
         if (config.headers && typeof config.headers.set === "function") {
-          config.headers.set("x-access-token", userStore.token);
+          // config.headers.set("Bearer", userStore.token);
+          (config as Recordable).headers.Authorization = "Bearer " + userStore.token; // 让每个请求携带自定义token
         }
+        const tenantId = userStore.tenantId;
+        if (tenantId) (config as Recordable).headers["tenant-id"] = tenantId;
         return config;
       },
       (error: AxiosError) => {
@@ -59,6 +62,7 @@ class RequestHttp {
         // 登陆失效
         if (data.code == ResultEnum.OVERDUE) {
           userStore.setToken("");
+          userStore.setTalentId("");
           router.replace(LOGIN_URL);
           ElMessage.error(data.msg);
           return Promise.reject(data);

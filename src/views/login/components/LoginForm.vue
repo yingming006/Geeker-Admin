@@ -1,5 +1,14 @@
 <template>
   <el-form ref="loginFormRef" :model="loginForm" :rules="loginRules" size="large">
+    <el-form-item prop="tenantName">
+      <el-input v-model="loginForm.tenantName" placeholder="租户名称: sigu">
+        <template #prefix>
+          <el-icon class="el-input__icon">
+            <user />
+          </el-icon>
+        </template>
+      </el-input>
+    </el-form-item>
     <el-form-item prop="username">
       <el-input v-model="loginForm.username" placeholder="用户名：admin / user">
         <template #prefix>
@@ -34,14 +43,13 @@ import { HOME_URL } from "@/config";
 import { getTimeState } from "@/utils";
 import { Login } from "@/api/interface";
 import { ElNotification } from "element-plus";
-import { loginApi } from "@/api/modules/login";
+import { loginApi, getTenantIdByName } from "@/api/modules/login";
 import { useUserStore } from "@/stores/modules/user";
 import { useTabsStore } from "@/stores/modules/tabs";
 import { useKeepAliveStore } from "@/stores/modules/keepAlive";
-import { initDynamicRouter } from "@/routers/modules/dynamicRouter";
+// import { initDynamicRouter } from "@/routers/modules/dynamicRouter";
 import { CircleClose, UserFilled } from "@element-plus/icons-vue";
 import type { ElForm } from "element-plus";
-import md5 from "md5";
 
 const router = useRouter();
 const userStore = useUserStore();
@@ -57,9 +65,16 @@ const loginRules = reactive({
 
 const loading = ref(false);
 const loginForm = reactive<Login.ReqLoginForm>({
-  username: "",
-  password: ""
+  tenantName: "sigu",
+  username: "admin",
+  password: "admin123"
 });
+
+//获取租户ID
+const getTenantId = async () => {
+  const res = await getTenantIdByName(loginForm.tenantName);
+  userStore.setTalentId(String(res.data));
+};
 
 // login
 const login = (formEl: FormInstance | undefined) => {
@@ -68,12 +83,14 @@ const login = (formEl: FormInstance | undefined) => {
     if (!valid) return;
     loading.value = true;
     try {
+      await getTenantId();
+
       // 1.执行登录接口
-      const { data } = await loginApi({ ...loginForm, password: md5(loginForm.password) });
-      userStore.setToken(data.access_token);
+      const { data } = await loginApi(loginForm);
+      userStore.setToken(data.accessToken);
 
       // 2.添加动态路由
-      await initDynamicRouter();
+      // await initDynamicRouter();
 
       // 3.清空 tabs、keepAlive 数据
       tabsStore.closeMultipleTab();
