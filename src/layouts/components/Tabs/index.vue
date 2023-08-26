@@ -47,7 +47,6 @@ onMounted(() => {
 watch(
   () => route.fullPath,
   () => {
-    if (route.meta.isFull) return;
     tabsMenuValue.value = route.fullPath;
     const tabsParams = {
       icon: route.meta.icon as string,
@@ -79,7 +78,7 @@ const tabsDrop = () => {
 // 初始化需要固定的 tabs
 const initTabs = () => {
   authStore.flatMenuListGet.forEach(item => {
-    if (item.meta.isAffix && !item.meta.isHide && !item.meta.isFull) {
+    if (item.meta.isAffix && !item.meta.isHide) {
       const tabsParams = {
         icon: item.meta.icon,
         title: item.meta.title,

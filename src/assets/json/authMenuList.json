@@ -10,7 +10,6 @@
         "title": "首页",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": true,
         "isKeepAlive": true
       }
@@ -24,7 +23,6 @@
         "title": "数据大屏",
         "isLink": "",
         "isHide": false,
-        "isFull": true,
         "isAffix": false,
         "isKeepAlive": true
       }
@@ -38,7 +36,6 @@
         "title": "超级表格",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -52,7 +49,6 @@
             "title": "使用 ProTable",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           },
@@ -67,7 +63,6 @@
                 "activeMenu": "/proTable/useProTable",
                 "isLink": "",
                 "isHide": true,
-                "isFull": false,
                 "isAffix": false,
                 "isKeepAlive": true
               }
@@ -83,7 +78,6 @@
             "title": "使用 TreeFilter",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -98,7 +92,6 @@
             "activeMenu": "/proTable/useTreeFilter",
             "isLink": "",
             "isHide": true,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -112,7 +105,6 @@
             "title": "使用 SelectFilter",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -126,7 +118,6 @@
             "title": "树形 ProTable",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -140,7 +131,6 @@
             "title": "复杂 ProTable",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -154,7 +144,6 @@
             "title": "ProTable 文档",
             "isLink": "https://juejin.cn/post/7166068828202336263/#heading-14",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -170,7 +159,6 @@
         "title": "权限管理",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -184,7 +172,6 @@
             "title": "菜单权限",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -198,7 +185,6 @@
             "title": "按钮权限",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -214,7 +200,6 @@
         "title": "常用组件",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -228,7 +213,6 @@
             "title": "引导页",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -242,7 +226,6 @@
             "title": "标签页操作",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           },
@@ -257,7 +240,6 @@
                 "activeMenu": "/assembly/tabs",
                 "isLink": "",
                 "isHide": true,
-                "isFull": false,
                 "isAffix": false,
                 "isKeepAlive": true
               }
@@ -273,7 +255,6 @@
             "title": "图标选择器",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -287,7 +268,6 @@
             "title": "分类筛选器",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -301,7 +281,6 @@
             "title": "树形筛选器",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -315,7 +294,6 @@
             "title": "SVG 图标",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -329,7 +307,6 @@
             "title": "文件上传",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -343,7 +320,6 @@
             "title": "批量添加数据",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -357,7 +333,6 @@
             "title": "富文本编辑器",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -371,7 +346,6 @@
             "title": "拖拽组件",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -387,7 +361,6 @@
         "title": "Dashboard",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -401,7 +374,6 @@
             "title": "数据可视化",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -415,7 +387,6 @@
             "title": "内嵌页面",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -431,7 +402,6 @@
         "title": "表单 Form",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -445,7 +415,6 @@
             "title": "超级 Form",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -459,7 +428,6 @@
             "title": "基础 Form",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -473,7 +441,6 @@
             "title": "校验 Form",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -487,7 +454,6 @@
             "title": "动态 Form",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -503,7 +469,6 @@
         "title": "Echarts",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -517,7 +482,6 @@
             "title": "水型图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -531,7 +495,6 @@
             "title": "柱状图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -545,7 +508,6 @@
             "title": "折线图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -559,7 +521,6 @@
             "title": "饼图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -573,7 +534,6 @@
             "title": "雷达图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -587,7 +547,6 @@
             "title": "嵌套环形图",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -603,7 +562,6 @@
         "title": "自定义指令",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -617,7 +575,6 @@
             "title": "复制指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -631,7 +588,6 @@
             "title": "水印指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -645,7 +601,6 @@
             "title": "拖拽指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -659,7 +614,6 @@
             "title": "防抖指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -673,7 +627,6 @@
             "title": "节流指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -687,7 +640,6 @@
             "title": "长按指令",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -703,7 +655,6 @@
         "title": "菜单嵌套",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -717,7 +668,6 @@
             "title": "菜单1",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -731,7 +681,6 @@
             "title": "菜单2",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           },
@@ -745,7 +694,6 @@
                 "title": "菜单2-1",
                 "isLink": "",
                 "isHide": false,
-                "isFull": false,
                 "isAffix": false,
                 "isKeepAlive": true
               }
@@ -759,7 +707,6 @@
                 "title": "菜单2-2",
                 "isLink": "",
                 "isHide": false,
-                "isFull": false,
                 "isAffix": false,
                 "isKeepAlive": true
               },
@@ -773,7 +720,6 @@
                     "title": "菜单2-2-1",
                     "isLink": "",
                     "isHide": false,
-                    "isFull": false,
                     "isAffix": false,
                     "isKeepAlive": true
                   }
@@ -787,7 +733,6 @@
                     "title": "菜单2-2-2",
                     "isLink": "",
                     "isHide": false,
-                    "isFull": false,
                     "isAffix": false,
                     "isKeepAlive": true
                   }
@@ -803,7 +748,6 @@
                 "title": "菜单2-3",
                 "isLink": "",
                 "isHide": false,
-                "isFull": false,
                 "isAffix": false,
                 "isKeepAlive": true
               }
@@ -819,7 +763,6 @@
             "title": "菜单3",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -835,7 +778,6 @@
         "title": "系统管理",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -849,7 +791,6 @@
             "title": "账号管理",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -863,7 +804,6 @@
             "title": "角色管理",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -877,7 +817,6 @@
             "title": "菜单管理",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -891,7 +830,6 @@
             "title": "部门管理",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -905,7 +843,6 @@
             "title": "字典管理",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -919,7 +856,6 @@
             "title": "定时任务",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -933,7 +869,6 @@
             "title": "系统日志",
             "isLink": "",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -949,7 +884,6 @@
         "title": "外部链接",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       },
@@ -963,7 +897,6 @@
             "title": "Gitee 仓库",
             "isLink": "https://gitee.com/HalseySpicy/Geeker-Admin",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -977,7 +910,6 @@
             "title": "GitHub 仓库",
             "isLink": "https://github.com/HalseySpicy/Geeker-Admin",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -991,7 +923,6 @@
             "title": "项目文档",
             "isLink": "https://docs.spicyboy.cn",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -1005,7 +936,6 @@
             "title": "掘金主页",
             "isLink": "https://juejin.cn/user/3263814531551816/posts",
             "isHide": false,
-            "isFull": false,
             "isAffix": false,
             "isKeepAlive": true
           }
@@ -1021,7 +951,6 @@
         "title": "关于项目",
         "isLink": "",
         "isHide": false,
-        "isFull": false,
         "isAffix": false,
         "isKeepAlive": true
       }

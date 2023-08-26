@@ -14,7 +14,6 @@ declare namespace Menu {
     activeMenu?: string;
     isLink?: string;
     isHide: boolean;
-    isFull: boolean;
     isAffix: boolean;
     isKeepAlive: boolean;
   }
